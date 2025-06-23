@@ -1,0 +1,78 @@
+.styled_wraper {
+    perspective: 600px;
+}
+
+.styled_wraper .btn {
+    display: grid;
+    place-items: center;
+    background: white;
+    padding: 0.6em;
+    border-radius: 6px;
+    box-shadow: var(--social-btn-shadow);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.styled_wraper .btn:hover {
+    background: #f0f0f0;
+    box-shadow: var(--social-btn-shadow-hover);
+    transform: translateY(2px);
+}
+
+.styled_wraper .btn svg {
+    height: 22px;
+    width: 22px;
+    transition: transform 0.3s;
+}
+
+.styled_wraper .btn:hover svg {
+    /* transform: scale(0.9) rotate(360deg); */
+    transform: scale(0.9) rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+/* GitHub */
+.styled_wraper .btn.github svg {
+    fill: #333;
+}
+
+.styled_wraper .btn.github:hover svg {
+    fill: #000;
+}
+
+/* Facebook */
+.styled_wraper .btn.facebook svg {
+    fill: #1877f2;
+}
+
+.styled_wraper .btn.facebook:hover svg {
+    fill: #0e5dc7;
+}
+
+/* linkedIn */
+.styled_wraper .btn.linkedin svg {
+    fill: #0077B5;
+}
+
+.styled_wraper .btn.linkedin:hover svg {
+    fill: #0077B5;
+}
+
+/* Instagram */
+.styled_wraper .btn.instagram svg {
+    fill: #e4405f;
+}
+
+.styled_wraper .btn.instagram:hover svg {
+    fill: #d32546;
+}
+
+/* WhatsApp */
+.styled_wraper .btn.whatsapp svg {
+    fill: #25d366;
+}
+
+.styled_wraper .btn.whatsapp:hover svg {
+    fill: #1da851;
+}
