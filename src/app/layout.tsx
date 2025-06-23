@@ -4,6 +4,7 @@ import { ThemeProvider } from 'next-themes'
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -37,6 +38,10 @@ export default function RootLayout({
       <body
         className={`${roboto.className}  ${funnelSans.className}  antialiased`}
       >
+        <Toaster
+          position="bottom-right"
+          reverseOrder={false}
+        />
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           <main className="bg-theme flex flex-col items-center p-4 max-w-[1500px] mx-auto">
             <Navbar />

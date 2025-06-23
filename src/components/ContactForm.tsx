@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import { Send } from "lucide-react";
+import toast from "react-hot-toast";
 
 type ContactFormState = {
   name: string;
@@ -54,10 +55,10 @@ export default function ContactForm() {
       }
 
       setState(initialState);
-      alert("Message sent successfully!");
+      toast.success("Message sent successfully!");
     } catch (error) {
       console.error(error);
-      alert("Failed to send message. Please try again later.");
+      toast.error("Failed to send message. Please try again later.");
     }
   };
   return (

@@ -1,7 +1,13 @@
 import { Globe, Smartphone, Rocket } from 'lucide-react';
 
+type Feature = {
+  icon: React.ComponentType<{ className?: string }>;
+  color: string;
+  title: string;
+  description: string;
+};
 export default function ServiceCard() {
-  const features = [
+  const features: Feature[] = [
     {
       icon: Globe,
       color: "bg-sky-400",

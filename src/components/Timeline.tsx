@@ -1,6 +1,13 @@
 import { Code } from "lucide-react"
 
-const timelineData = [
+type TimelineItem = {
+    id: number;
+    period: string;
+    title: string;
+    company: string;
+    description: string;
+}
+const timelineData: TimelineItem[] = [
     {
         id: 1,
         period: "2024 - Present",
