@@ -22,7 +22,7 @@ export default function Page() {
                     <div className="mb-8">
                         <h2 className="mb-4 text-2xl font-bold">Get In Touch</h2>
                         <p className="px-2 text-gray-600 dark:text-gray-400">
-                            Have a project in mind or just want to chat? Feel free to reach out. I'm always open to discussing new
+                            Have a project in mind or just want to chat? Feel free to reach out. I&apos;m always open to discussing new
                             projects, creative ideas, or opportunities to be part of your vision.
                         </p>
                     </div>

@@ -5,13 +5,13 @@ import { notFound } from "next/navigation"
 import { AuroraText } from "@/components/magicui/aurora-text"
 import { projectDetails } from "@/contants/project"
 
-interface ProjectParams {
-    params: {
-        id: string
-    }
+type ProjectDetailPageProps = {
+  params: {
+    id: string
+  }
 }
 
-export default function ProjectDetailPage({ params }: ProjectParams) {
+export default function ProjectDetailPage({ params }:  ProjectDetailPageProps) {
     const project = projectDetails.find((p) => p.id === params.id)
 
     if (!project) {

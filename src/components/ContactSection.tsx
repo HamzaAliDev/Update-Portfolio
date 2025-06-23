@@ -15,14 +15,14 @@ export default function ContactSection() {
 
                 {/* Heading */}
                 <div>
-                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-100">Let's work together</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-100">Let&apos;s work together</h2>
                 </div>
             </div>
 
             {/* Description */}
             <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-3 max-w-4xl">
                 Ready to bring your ideas to life? I specialize in creating exceptional digital experiences and would love
-                to collaborate on your next project. Let's connect and turn your vision into reality!
+                to collaborate on your next project. Let&apos;s connect and turn your vision into reality!
             </p>
 
             {/* Get in touch button */}

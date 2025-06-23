@@ -43,7 +43,7 @@ export default function Timeline() {
 
                 {/* Timeline items */}
                 <div className="space-y-8">
-                    {timelineData.map((item, index) => (
+                    {timelineData.map((item) => (
                         <div key={item.id} className="relative flex items-start">
                             {/* Timeline dot */}
                             <div className="absolute left-3 w-6 h-6 bg-purple-700 dark:bg-purple-700 rounded-full flex items-center justify-center z-10">

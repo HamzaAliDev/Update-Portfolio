@@ -1,7 +1,6 @@
 import { StaticImageData } from "next/image";
 import html from '../../public/tools/html.png';
 import css from '../../public/tools/css.png';
-import c from '../../public/tools/c.png';
 import javascript from '../../public/tools/js.png';
 import react from '../../public/tools/react.png';
 import bootstrap from '../../public/tools/bootstrap.webp';
@@ -13,11 +12,7 @@ import openweather from '../../public/tools/openweather.webp';
 import sass from '../../public/tools/sass.png';
 import firebase from '../../public/tools/firebase.png';
 import mongodb from '../../public/tools/mongodb.png'
-import mysql from '../../public/tools/mysql.png'
 import nodejs from '../../public/tools/nodejs.png'
-import oracle from '../../public/tools/oracle.png'
-import python from '../../public/tools/python.png'
-import vite from '../../public/tools/vite.png'
 import ts from '../../public/tools/ts.png'
 import zustand from '../../public/tools/zustand.png'
 import clerk from '../../public/tools/clerk.png'

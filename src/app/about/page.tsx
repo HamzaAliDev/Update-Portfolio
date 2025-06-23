@@ -69,7 +69,7 @@ export default function Page() {
           </p>
           <p className="mb-6 text-lg text-gray-600 dark:text-gray-400">
             Beyond coding, I&apos;m a curious learner who values personal growth and creative problem-solving. In my free time,
-            I enjoy playing <span className="text-purple-700 font-medium"> video games</span> and <span className="text-purple-700 font-medium">badminton</span>, which help me recharge and stay inspired. I'm always open to exciting
+            I enjoy playing <span className="text-purple-700 font-medium"> video games</span> and <span className="text-purple-700 font-medium">badminton</span>, which help me recharge and stay inspired. I&apos;m always open to exciting
             opportunities where I can collaborate, contribute, and make a real impact.
           </p>
 

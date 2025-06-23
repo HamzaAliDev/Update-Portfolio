@@ -27,18 +27,18 @@ const outlineVariant: Variants = {
     },
 }
 
-const receiverVariant: Variants = {
-    normal: {
-        pathLength: 1,
-        pathOffset: 0,
-        scale: 1,
-    },
-    animate: {
-        pathLength: [0, 1],
-        pathOffset: [1, 0],
-        scale: [0.5, 1],
-    },
-}
+// const receiverVariant: Variants = {
+//     normal: {
+//         pathLength: 1,
+//         pathOffset: 0,
+//         scale: 1,
+//     },
+//     animate: {
+//         pathLength: [0, 1],
+//         pathOffset: [1, 0],
+//         scale: [0.5, 1],
+//     },
+// }
 
 const PhoneIcon = forwardRef<PhoneIconHandle, PhoneIconProps>(
     ({ onMouseEnter, onMouseLeave, className, size = 28, isActive, ...rest }, ref) => {
