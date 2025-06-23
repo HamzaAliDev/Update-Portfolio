@@ -28,7 +28,7 @@ export default function PageCard({ length, showIcon }: cardComponentProps) {
                                 alt={project.title}
                                 width={300}
                                 height={100}
-                                className=" object-cover transition-transform duration-500 group-hover:scale-110"
+                                className="h-auto w-auto object-cover transition-transform duration-500 group-hover:scale-110"
                             />
                             {project.featured && (
                                 <div className="absolute left-0 top-4 rounded-r-lg bg-gradient-to-r from-purple-600 to-fuchsia-600 px-3 py-1 text-xs font-medium text-white">

@@ -6,16 +6,16 @@ import { AuroraText } from "@/components/magicui/aurora-text"
 import { projectDetails } from "@/contants/project"
 
 type ProjectDetailPageProps = {
-  params: {
-    id: string
-  }
-}
+    params: Promise<{ id: string }>;
+};
 
-export default function ProjectDetailPage({ params }:  ProjectDetailPageProps) {
-    const project = projectDetails.find((p) => p.id === params.id)
+export default async function ProjectDetailPage({ params }: ProjectDetailPageProps) {
+    const { id } = await params;
+    console.log(id);
+    const project = projectDetails.find((p) => p.id === id);
 
     if (!project) {
-        notFound()
+        notFound();
     }
 
     return (

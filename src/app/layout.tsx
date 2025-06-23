@@ -23,9 +23,6 @@ const funnelSans = Funnel_Sans({
 export const metadata: Metadata = {
   title: "Ali Hamza",
   description: "Ali Hamza's Portfolio",
-  icons: {
-    icon: "logo.svg"
-  }
 };
 
 export default function RootLayout({
