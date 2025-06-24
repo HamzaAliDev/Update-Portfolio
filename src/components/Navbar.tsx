@@ -22,7 +22,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="flex justify-center w-full py-4 fixed z-50">
+    <nav className="flex justify-center  py-4 fixed z-50">
       <div className="flex items-center bg-white/20 dark:bg-gray-800/20 backdrop-blur-md border border-white/20 dark:border-white/10 rounded-full px-2 shadow-lg gap-2 ">
         {navItems.map((item) => {
           const isActive = pathname === item.href

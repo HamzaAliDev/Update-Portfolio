@@ -9,6 +9,13 @@ type ProjectDetailPageProps = {
     params: Promise<{ id: string }>;
 };
 
+
+export async function generateStaticParams() {
+    return projectDetails.map((project) => ({
+        id: project.id,
+    }));
+}
+
 export default async function ProjectDetailPage({ params }: ProjectDetailPageProps) {
     const { id } = await params;
     console.log(id);
