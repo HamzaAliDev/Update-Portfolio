@@ -10,7 +10,7 @@ import HeroSection from "@/components/HeroSection";
 export default function Home() {
   return (
     <>
-      <section className="w-full min-h-screen flex items-center justify-center mt-16 lg:mt-4 ">
+      <section className="w-full min-h-screen pt-20 lg:pt-24 ">
         <HeroSection />
       </section>
 

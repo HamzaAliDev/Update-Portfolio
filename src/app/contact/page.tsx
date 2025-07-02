@@ -7,7 +7,7 @@ import ContactForm from "@/components/ContactForm"
 export default function Page() {
     return (
         <section className="w-full md:w-10/12 mx-auto pt-20 lg:pt-24">
-            <div className="mb-8 flex items-center">
+            <div className="mb-8 flex items-center mt-4 sm:mt-2 md:mt-0">
                 <button className="mr-4 rounded-full p-2">
                     <Link href="/">
                         <ArrowLeft className="h-5 w-5" />

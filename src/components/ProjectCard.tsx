@@ -18,7 +18,7 @@ export default function PageCard({ length, showIcon }: cardComponentProps) {
                 <Link
                     key={project.id}
                     href={`/projects/${project.id}`}
-                    className="max-w-lg group overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:bg-gray-800/50 dark:backdrop-blur-sm dark:hover:bg-gray-800/80"
+                    className="max-w-lg  group overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:bg-gray-800/50 dark:backdrop-blur-sm dark:hover:bg-gray-800/80"
                 >
                     <div>
                         <div className={` p-10 overflow-hidden flex items-center justify-center relative ${project.colorGradient}`}

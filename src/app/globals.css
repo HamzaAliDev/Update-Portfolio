@@ -232,6 +232,7 @@
         /* @apply border-border outline-ring/50; */
         @apply border-gray-300 dark:border-gray-600 outline-purple-500/50;
     }
+    
 }
 
 /*---break--- */
