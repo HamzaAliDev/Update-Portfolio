@@ -94,6 +94,17 @@
     width: auto;
 }
 
+
+.pdfchat-project-gradient {
+    background: #9D50BB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .cozera-project-gradient {
     background: rgba(244, 107, 69, 0.8);
     /* fallback with opacity */
@@ -232,7 +243,7 @@
         /* @apply border-border outline-ring/50; */
         @apply border-gray-300 dark:border-gray-600 outline-purple-500/50;
     }
-    
+
 }
 
 /*---break--- */

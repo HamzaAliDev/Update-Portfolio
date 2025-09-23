@@ -19,6 +19,8 @@ import clerk from '../../public/tools/clerk.png'
 import websockets from '../../public/tools/websockets.png'
 import antd from '../../public/tools/antd.png'
 import gemini from "../../public/tools/gemini.svg"
+import supabase from "../../public/tools/supabase.png"
+import langchain from "../../public/tools/langchain.png"
 
 import cozera1 from "../../public/projects/cozera1.svg";
 import cozera2 from "../../public/projects/cozera2.svg";
@@ -51,6 +53,10 @@ import chat1 from "../../public/projects/chat1.svg";
 import chat2 from "../../public/projects/chat2.svg";
 import chat3 from "../../public/projects/chat3.svg";
 import chat4 from "../../public/projects/chat4.svg";
+import pdfchat1 from "../../public/projects/pdfchat1.svg";
+import pdfchat2 from "../../public/projects/pdfchat2.svg";
+import pdfchat3 from "../../public/projects/pdfchat3.svg";
+import pdfchat4 from "../../public/projects/pdfchat4.svg";
 
 
 
@@ -86,6 +92,21 @@ type ProjectDetail = {
 }
 
 export const projects: Project[] = [
+    {
+        id: "pdf-chat",
+        title: "Chat with PDF",
+        description:
+            "An AI-powered PDF chatbot that allows users to upload and interact with PDF documents. Built with modern technologies for seamless user experience.",
+        image: pdfchat1,
+        tags: [
+            { icon: nextjs, name: "Next.js" },
+            { icon: supabase, name: "Supabase" },
+            { icon: clerk, name: "Clerk" },
+            { icon: langchain, name: "LangChain" },
+        ],
+        featured: false,
+        colorGradient: "pdfchat-project-gradient",
+    },
     {
         id: "cozera-store",
         title: "Cozera Store",
@@ -209,6 +230,39 @@ export const projects: Project[] = [
 
 
 export const projectDetails: ProjectDetail[] = [
+    {
+        id: "pdf-chat",
+        title: "Chat with PDF",
+        longDescription:
+            "PDFChat is an AI-powered PDF chatbot that allows users to upload and interact with PDF documents. Built with Next.js, Supabase, and LangChain, it offers a seamless user experience for querying and extracting information from PDFs. The application features user authentication with Clerk, ensuring secure access to the platform. With advanced natural language processing capabilities, PDFChat enables users to ask questions and receive accurate responses based on the content of their uploaded documents. The integration of Cloudinary ensures efficient storage and retrieval of PDF files, making PDFChat a powerful tool for document management and information retrieval.",
+        image: pdfchat1,
+        gallery: [
+            pdfchat2,
+            pdfchat3,
+            pdfchat4,
+        ],
+        tags: [
+            { icon: nextjs, name: "Next.js" },
+            { icon: supabase, name: "Supabase" },
+            { icon: clerk, name: "Clerk" },
+            { icon: langchain, name: "LangChain" },
+            { icon: gemini, name: "Gemini" },
+            { icon: zustand, name: "Zustand" },
+        ],
+        liveLink: "https://pdfchat-free.vercel.app/",
+        githubLink: "https://github.com/HamzaAliDev/Chat-With-PDF",
+        featured: false,
+        client: "Personal Project",
+        date: "September 2025",
+        role: "Sole Developer",
+        keyFeatures: [
+            "AI-powered PDF interaction using LangChain",
+            "User authentication and secure access with Clerk",
+            "Efficient PDF storage and retrieval using Supabase",
+            "Chat interface for querying PDF content",
+            "Responsive design for mobile and desktop users",
+        ],
+    },
     {
         id: "cozera-store",
         title: "Cozera Store",
